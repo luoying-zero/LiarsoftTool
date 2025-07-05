@@ -1,6 +1,6 @@
 # LiarsoftTool
 ## 简介：
-针对骗子社（liarsoft）用codex rscript编写的galgame小工具  
+针对骗子社（liarsoft）用codex rscript编写的galgame的小工具  
 [xfl封包](test/RScriptPacker)  
 [xfl解包](test/RScriptUnpacker)  
 [gsc文本提取](test/RScriptText)   
