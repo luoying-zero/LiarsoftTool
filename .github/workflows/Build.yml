@@ -35,11 +35,11 @@ jobs:
         update: true
         msystem: UCRT64
         install: >-
-          mingw-w64-ucrt-x86_64-libiconv
+          libiconv-devel
           mingw-w64-ucrt-x86_64-gcc
 
     - name: Build
-      run: g++ -o RScriptText.exe RScriptText.cpp -liconv
+      run: g++ -static -o RScriptText.exe RScriptText.cpp -liconv
 
     - uses: actions/upload-artifact@v4
       with:
