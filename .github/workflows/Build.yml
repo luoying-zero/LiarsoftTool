@@ -39,7 +39,7 @@ jobs:
           mingw-w64-ucrt-x86_64-gcc
 
     - name: Build
-      run: gcc -o RScriptText.exe RScriptText.cpp
+      run: gcc -o RScriptText.exe RScriptText.cpp -liconv
 
     - uses: actions/upload-artifact@v4
       with:
