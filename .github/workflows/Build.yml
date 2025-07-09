@@ -33,7 +33,9 @@ jobs:
     - uses: msys2/setup-msys2@v2
       with:
         msystem: UCRT64
-        install: mingw-w64-x86_64-libiconv
+        install: >-
+          mingw-w64-x86_64-libiconv
+          mingw-w64-x86_64-gcc
 
     - name: Build
       run: gcc -o RScriptText.exe RScriptText.cpp
