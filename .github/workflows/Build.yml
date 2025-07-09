@@ -35,7 +35,7 @@ jobs:
         update: true
         msystem: UCRT64
         install: >-
-          mingw-w64-x86_64-libiconv
+          mingw-w64-ucrt-x86_64-libiconv
           mingw-w64-ucrt-x86_64-gcc
 
     - name: Build
